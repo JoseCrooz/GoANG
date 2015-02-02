@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Air National Guard</title>
+    <script src="js/jquery-min.js" type="text/javascript"></script>
+    <script src="js/underscore-min.js" type="text/javascript"></script>
+    <script src="js/backbone-min.js" type="text/javascript"></script>
+    <script src="js/modernizr.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/header.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/standAloneHTML.css" type="text/css" media="screen" />
+    <script src='js/jquery.path.js'></script>
+</head>
+<body>
+    <header> </header>
+
+    <div class="stand-alone" id="home_slide2">
+        <div class="home-hidden-hotspots">
+            <a class="hidden-hotspot" id="hotspot-1" href="home_slide1.html"></a>
+            <a class="hidden-hotspot" id="hotspot-2" href="#" onclick="return false;"></a>
+            <a class="hidden-hotspot" id="hotspot-3" href="home_slide3.html"></a>
+        </div>
+        <a class="hidden-hotspot" id="home-hotspot-4" onclick="showOverlay('career-finder')"></a>
+        <a class="hidden-hotspot" id="jump-hotspot" href="index.html"></a>
+        <a class="hidden-hotspot" id="slide-left-arrow" href="home_slide1.html"></a>
+        <a class="hidden-hotspot" id="slide-right-arrow" href="home_slide3.html"></a>
+
+    </div>
+
+    <div class="career-modal" id="career-finder" onclick="hideOverlay('career-finder')"></div>
+
+    <script src="js/angScript.js" type="text/javascript"></script>
+
+    <script src="js/mainMenu.js" type="text/javascript"></script>
+
+    <script src="js/standAloneJS.js" type="text/javascript"></script>
+</body>
+</html>

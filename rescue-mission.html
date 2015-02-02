@@ -1,0 +1,189 @@
+<div class="page intro-page" id="page-0">
+    <div class="intro-top">
+        <div class="intro">
+            <h4>Air National Guard</h4>
+            <h1>Task Force Irene</h1>
+            <h4>Rushing to the Rescue</h4>
+        </div>
+        <div class="intro-text">
+            <p>Hurricane Irene sweeps the Eastern Coast wreaking havoc and causing untold destruction.<br />Long before the call comes, Air National Guardsmen are ready to help.</p>
+        </div>
+    </div>
+    <div class="intro-bottom">
+        <div class="cta">
+            <a href="#second" id="launch-btn"><img src="img/intro-cta.png" /></a>
+        </div>
+    </div>
+</div>
+<div class="page" id="page-1">
+    <div class="tabbedContent">
+        <div id="vermontContent"><h1>VERMONT</h1><h2>Nearly 2,400 roads are wrecked. Around 800<br/> homes and businesses, 300 bridges, and several<br/> railroad tracks are also severely damaged.</h2></div>
+        <div id="newYorkContent"><h1>NEW YORK</h1><h2>Three towns are rendered uninhabitable. Now a<br/> tropical storm, Irene causes catastrophic flooding<br/> that cuts off hamlets and takes seven lives.</h2></div>
+        <div id="newJerseyContent"><h1>NEW JERSEY</h1><br/><h2>Irene drops 11 inches of rain, knocks out power for<br/> 1.46 million people, and causes seven fatalities<br/> and $1 billion in damage.</h2></div>
+        <div id="virginiaContent"><h1>VIRGINIA</h1><h2>Over 1.2 million lose power. Trees crush<br/> homes and cars, block roads, take out<br /> power lines, and ultimately, kill four people.</h2></div>
+        <div id="northCarolinaContent"><h1>NORTH<br/>CAROLINA</h1><h2>Making landfall, with winds of 85 mph, Irene<br/> spawns several tornadoes. More than 1,100<br/> homes are leveled.</h2></div>
+        
+    </div>
+    <div class="continue-btn" id="page1-continue"><a href="#third"><img src="img/continue-btn-page1.png" /></a></div>
+    <div class="interaction">
+        <img src="img/map.png" />
+        <div class="hurricanePath">
+            <ul>
+                <li class="mapSpot" id="mapSpot1" value="0" rel="vermont" onclick="ang.rescueMission.handleMapSpotClick(this)">
+                    <div class="pinkSpot"></div>
+                    <div class="blueSpot"></div>
+                    <h5 class="mapHotspotTitle">Vermont</h5>
+                    <div class="mapDetails mapDetailsTypeface">Nearly 2,400 roads damaged</div>
+                </li>
+                <li class="mapSpot" id="mapSpot2" value="1" rel="newYork" onclick="ang.rescueMission.handleMapSpotClick(this)">
+                    <div class="pinkSpot"></div>
+                    <div class="blueSpot"></div>
+                    <h5 class="mapHotspotTitle">New York</h5>
+                    <div class="mapDetails mapDetailsTypeface">Three towns rendered<br/>uninhabitable</div>
+                </li>
+                <li class="mapSpot" id="mapSpot3" value="1" rel="newJersey" onclick="ang.rescueMission.handleMapSpotClick(this)">
+                    <div class="pinkSpot"></div>
+                    <div class="blueSpot"></div>
+                    <h5 class="mapHotspotTitle">New Jersey</h5>
+                    <div class="mapDetails mapDetailsTypeface">Seven fatalities</div>
+                </li>
+                <li class="mapSpot" id="mapSpot4" value="1" rel="virginia" onclick="ang.rescueMission.handleMapSpotClick(this)">
+                    <div class="pinkSpot"></div>
+                    <div class="blueSpot"></div>
+                    <h5 class="mapHotspotTitle">Virginia</h5>
+                    <div class="mapDetails mapDetailsTypeface">Over 1.2 million lose power </div>
+                </li>
+                <li class="mapSpot" id="mapSpot5" value="1" rel="northCarolina" onclick="ang.rescueMission.handleMapSpotClick(this)">
+                    <div class="pinkSpot"></div>
+                    <div class="blueSpot"></div>
+                    <h5 class="mapHotspotTitle">North Carolina</h5>
+                    <div class="mapDetails mapDetailsTypeface">More than 1,100 homes<br/>leveled</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="headline">
+        <h2>From downed trees to bridge<br/> washouts, Hurricane Irene ranks as<br/> one of the costliest storms ever.</h2>
+    </div>
+
+</div>
+<div class="page" id="page-2">
+    <div class="continue-btn" id="page2-continue"><a href="#fourth"><img src="img/continue-btn-page2.png" /></a></div>
+    <div class="interaction">
+        <div class="chopper-job-intro">
+            <div class="chopper"><img src="img/chopper-placeholder.png" /></div>
+            <div class="chopper-facts">
+                <div id="chopper-facts-intro"><img src="img/chopper-facts-intro.png" /><br><h2 onclick="ang.rescueMission.initChopperMenu()">LEARN ABOUT CAREERS ASSOCIATED WITH THIS AIRCRAFT</h2></div>
+            </div>
+        </div>
+        <div class="chopper-jobs">
+            <div class="small-chopper"><img src="img/chopper-small.png" /></div>
+            <div class="chopper-nav">
+                <ul>
+                    <li class="chopper-link" id="job1" onclick="ang.rescueMission.chopperMenuClick(this)">HH-60 PILOT</li>
+                    <li class="chopper-link" id="job2" onclick="ang.rescueMission.chopperMenuClick(this)">AERIAL GUNNER</li>
+                    <li class="chopper-link" id="job3" onclick="ang.rescueMission.chopperMenuClick(this)">PARARESCUE JUMPER</li>
+                    <li class="chopper-link" id="job4" onclick="ang.rescueMission.chopperMenuClick(this)">AVIONICS ENGINEER</li>
+                </ul>
+                <p class="back-to" onclick="ang.rescueMission.resetChopperMenu()">BACK TO AIRCRAFT OVERVIEW</p>
+            </div>
+            <div class="job-dots">
+                <div id="dots-job1">
+                    <div class="chopper-spot" id="spot1"></div>
+                </div>
+                <div id="dots-job2">
+                    <div class="chopper-spot" id="spot2"></div>
+                </div>
+                <div id="dots-job3">
+                    <div class="chopper-spot" id="spot3"></div>
+                </div>
+                <div id="dots-job4">
+                    <div class="chopper-spot" id="spot4"></div>
+                    <div class="chopper-spot" id="spot5"></div>
+                    <div class="chopper-spot" id="spot6"></div>
+                </div>
+            </div>
+            <div class="job" id="chopper-job1">
+                <div class="job-title">HH-60 PAVE<br/>HAWK PILOT</div>
+                <div class="job-description">Across hazardous terrain, in adverse weather conditions, you'll race<br/> against time to rescue people in danger, deliver desperately needed<br/> supplies or complete an in-flight refueling mission. And you'll do it<br/> with precise skill, strong spatial perception and grace under pressure.<br/><span class="job-cta">FIND OUT MORE ABOUT THIS CAREER</span></div>
+            </div>
+            <div class="job" id="chopper-job2">
+                <div class="job-title">AERIAL<br/>GUNNER</div>
+                <div class="job-description">Whether you're flying a search-and-rescue operation or a combat<br/> mission, your ultimate responsibility is to protect your crew. You'll<br/> need to be skilled in the use of night vision goggles, know how to<br/> read schematics, understand combat techniques and more.<br/><span class="job-cta">FIND OUT MORE ABOUT THIS CAREER</span></div>
+            </div>
+            <div class="job" id="chopper-job3">
+                <div class="job-title">PARARESCUE<br/>JUMPER</div>
+                <div class="job-description">Parachute into a remote jungle. Rope down to frozen tundra.<br/> Scuba dive in the deep ocean. Trained in emergency medical<br/> tactics and survival skills, you're ready to go to extreme lengths<br/> to search, rescue and save lives at a moment's notice.<br/><span class="job-cta">FIND OUT MORE ABOUT THIS CAREER</span></div>
+            </div>
+            <div class="job" id="chopper-job4">
+                <div class="job-title">AVIONICS<br/>ENGINEER</div>
+                <div class="job-description">The operational readiness of Air Guard aircraft is crucial to mission<br/> success. Beyond routine maintenance, you'll need to analyze<br/> performance and repair malfunctions in everything from radar and<br/> communications to flight control and engine control systems.<br/><span class="job-cta">FIND OUT MORE ABOUT THIS CAREER</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="headline">
+        <h2>Fly through adverse <br/>weather conditions<br/> to rescue victims in<br/>unreachable places.</h2>
+    </div>
+</div>
+<div class="page" id="page-3">
+    <div class="continue-btn" id="page3-continue"><a href="#fifth"><img src="img/continue-btn-page3.png" /></a></div>
+    <div class="headline">
+        <h2>Rescue trapped 93 Year<br/> Old woman from danger</h2>
+        <p><h5>Master Sgt. Jules Roy<br/>9.8.2011 21:30ET Apalachin, NY</h5></p>
+    </div>
+    <div class="hero">
+        <img src="img/jules-roy-hero.png" alt="Jules Roy" />
+    </div>
+    <div class="cta" onclick="ang.modals.showOverlay('#modal-video')">
+        <img src="img/ctaButton.png" />
+        <h2>RESCUE FROM ABOVE</h2>
+    </div>
+</div>
+<div class="page" id="page-4">
+    <div class="continue-btn" id="page4-continue"><a href="#sixth"><img src="img/continue-btn-page4.png" /></a></div>
+    <div class="copy-1">
+        <h1>Train to become one of the elite</h1>
+    </div>
+    <div class="copy-2">
+        <h3>From hikers stranded on a mountaintop to fishermen adrift in an ocean, you're ready to go<br/> anywhere, to rescue anyone.</h3>
+    </div>
+    <div class="cta" onclick="ang.modals.showOverlay('#modal-video')">
+        <img src="img/ctaButton.png" />
+        <h2>SEE WHAT IT TAKES</h2>
+    </div>
+</div>
+
+<div class="page" id="page-5">
+    <div class="continue-btn" id="page5-continue"><a href="#seventh"><img src="img/continue-btn-page5.png" /></a></div>
+    <div class="headline">
+        <h1>HELP IN EVERY WAY POSSIBLE</h1>
+        <h2>Restore communications, hold back rising waters and navigate<br/> impassable roads to evacuate civilians and bring in supplies.</h2>
+    </div>
+    <div class="cta" onclick="ang.modals.showOverlay('#modal-gallery')">
+        <img src="img/ctaButton2.png" />
+        <h2>DEDICATION WITHOUT LIMITS</h2>
+
+    </div>
+</div>
+<div class="page" id="page-6">
+    <div class="continue-btn" id="page6-continue"><a href="#eighth"><img src="img/continue-btn-page6.png" /></a></div>
+    <div class="headline">
+        <h2>&ldquo;Hurricane Irene devastated <br/>communities all over the state.<br/>Our first responders were selfless... <br/>and they were courageous.&rdquo;</h2>
+        <h3>- Andrew Cuomo, New York Governor</h3>
+    </div>
+</div>
+<div class="page" id="page-7">
+    <div class="headline">
+        <h1>IN THE AFTERMATH OF IRENE</h1><br/>
+        <h2>1,573 Airmen from 23 states helped relieve suffering, prevent further devastation and save lives.</h2>
+    </div>
+    <div class="infographic-1">
+        <img src="img/final-infographic-1.png" />
+    </div>
+    <div class="infographic-2">
+        <img src="img/final-infographic-2.png" />
+    </div>
+    <div class="infographic-3">
+        <img src="img/final-infographic-3.png" />
+    </div>
+</div>
