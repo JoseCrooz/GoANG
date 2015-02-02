@@ -1,0 +1,515 @@
+body {
+  height: 100%;
+  overflow: auto;
+}
+/* HOME */
+#home_slide1 {
+  background-image: url("../img/home_slide1.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1400px;
+}
+#home_slide2 {
+  background-image: url("../img/home_slide2.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1400px;
+}
+#home_slide3 {
+  background-image: url("../img/home_slide3.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1400px;
+}
+.home-hidden-hotspots {
+  position: absolute;
+  z-index: 4;
+  width: 1000px;
+  height: 20px;
+  margin-left: 306px;
+  margin-top: 431px;
+}
+.home-hidden-hotspots > .hidden-hotspot {
+  float: left;
+  width: 258px;
+  height: 51px;
+  margin-right: 9px;
+  cursor: pointer;
+  opacity: 0;
+}
+#home-hotspot-4 {
+  position: absolute;
+  top: 540px;
+  left: 218px;
+  width: 322px;
+  height: 267px;
+  opacity: 0;
+}
+#jump-hotspot {
+  position: absolute;
+  top: 320px;
+  left: 550px;
+  width: 312px;
+  height: 80px;
+  opacity: 0;
+}
+#slide-left-arrow {
+  position: absolute;
+  top: 246px;
+  left: 230px;
+  width: 72px;
+  height: 80px;
+  opacity: 0;
+}
+#slide-right-arrow {
+  position: absolute;
+  top: 246px;
+  left: 1120px;
+  width: 72px;
+  height: 80px;
+  opacity: 0;
+}
+/* CAREERS */
+#one_careers {
+  background-image: url("../img/1_careers.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1400px;
+}
+#two_careers {
+  background-image: url("../img/2_careers.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1400px;
+}
+#three_careers {
+  background-image: url("../img/3_careers.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1400px;
+}
+#four_careers {
+  background-image: url("../img/4_careers.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1650px;
+}
+#five_careers {
+  background-image: url("../img/5_careers.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1400px;
+}
+.careers1-hidden-hotspots {
+  position: absolute;
+  width: 700px;
+  height: 300px;
+}
+#careers1-hotspot1 {
+  position: absolute;
+  width: 705px;
+  height: 350px;
+  top: 770px;
+  left: 465px;
+  cursor: pointer;
+  opacity: 0;
+}
+#careers1-hotspot2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1075px;
+  top: 150px;
+  cursor: pointer;
+  opacity: 0;
+}
+#careers1-hotspot3 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1125px;
+  top: 150px;
+  cursor: pointer;
+  opacity: 0;
+}
+.careers2-hidden-hotspots {
+  position: absolute;
+  width: 730px;
+  height: 690px;
+}
+#careers2-hotspot-1 {
+  float: left;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 471px;
+  top: 290px;
+  cursor: pointer;
+  opacity: 0;
+}
+#careers2-hotspot-2 {
+  float: left;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1023px;
+  top: 150px;
+  cursor: pointer;
+  opacity: 0;
+}
+#careers2-hotspot-3 {
+  float: left;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1124px;
+  top: 150px;
+  cursor: pointer;
+  opacity: 0;
+}
+.careers3-hidden-hotspots {
+  position: absolute;
+  width: 730px;
+  height: 690px;
+}
+#careers3-hotspot-1 {
+  float: left;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1023px;
+  top: 150px;
+  cursor: pointer;
+  opacity: 0;
+}
+#careers3-hotspot-2 {
+  float: left;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1073px;
+  top: 150px;
+  cursor: pointer;
+  opacity: 0;
+}
+#careers3-hotspot-3 {
+  float: left;
+  position: absolute;
+  width: 690px;
+  height: 90px;
+  left: 473px;
+  top: 290px;
+  cursor: pointer;
+  opacity: 0;
+}
+.modual {
+  position: absolute;
+  background-image: url("../img/2_careersModule.png");
+  width: 703px;
+  height: 1129px;
+  left: 466px;
+  top: 770px;
+}
+/* BENEFITS AND PAY */
+#one_benefits {
+  background-image: url("../img/1_benefits.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1100px;
+}
+#two_benefits {
+  background-image: url("../img/2_benefits.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1100px;
+}
+#three_benefits {
+  background-image: url("../img/3_benefits.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1100px;
+}
+.benefits1-hidden-hotspots {
+  position: absolute;
+  width: 730px;
+  height: 690px;
+}
+#benefits1-hotspot1 {
+  float: left;
+  position: absolute;
+  width: 550px;
+  height: 150px;
+  left: 623px;
+  top: 130px;
+  cursor: pointer;
+  opacity: 0;
+}
+#benefits2-hotspot1 {
+  float: left;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 380px;
+  top: 326px;
+  cursor: pointer;
+  opacity: 0;
+}
+#benefits2-hotspot2 {
+  float: left;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 975px;
+  top: 135px;
+  cursor: pointer;
+  opacity: 0;
+}
+#benefits3-hotspot1 {
+  float: left;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 230px;
+  top: 326px;
+  cursor: pointer;
+  opacity: 0;
+}
+#benefits2-hotspot3 {
+  float: left;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 1075px;
+  top: 235px;
+  cursor: pointer;
+  opacity: 0;
+}
+/* LIFE ANG */
+#one_lifeANG {
+  background-image: url("../img/1_lifeANG.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1100px;
+}
+#two_lifeANG {
+  background-image: url("../img/2_lifeANG.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1100px;
+}
+.lifeANG1-hidden-hotspots {
+  position: absolute;
+  width: 730px;
+  height: 690px;
+}
+#lifeANG1-hotspot1 {
+  float: left;
+  position: absolute;
+  width: 550px;
+  height: 150px;
+  left: 623px;
+  top: 440px;
+  cursor: pointer;
+  opacity: 0;
+}
+#lifeANG2-hotspot1 {
+  float: left;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 973px;
+  top: 135px;
+  cursor: pointer;
+  opacity: 0;
+}
+#lifeANG2-hotspot2 {
+  float: left;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 1075px;
+  top: 235px;
+  cursor: pointer;
+  opacity: 0;
+}
+/* ABOUT ANG */
+#one_aboutANG {
+  background-image: url("../img/1AboutANG.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1200px;
+}
+#two_aboutANG {
+  background-image: url("../img/2AboutANG.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1400px;
+}
+.aboutANG1-hidden-hotspots {
+  position: absolute;
+  width: 730px;
+  height: 690px;
+}
+#aboutANG1-hotspot1 {
+  float: left;
+  position: absolute;
+  width: 550px;
+  height: 150px;
+  left: 623px;
+  top: 115px;
+  cursor: pointer;
+  opacity: 0;
+}
+#aboutANG2-hotspot1 {
+  float: left;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 973px;
+  top: 135px;
+  cursor: pointer;
+  opacity: 0;
+}
+#aboutANG2-hotspot2 {
+  float: left;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 1075px;
+  top: 235px;
+  cursor: pointer;
+  opacity: 0;
+}
+/* REQUEST INFO */
+#one_requestInfo {
+  background-image: url("../img/1_requestinfo.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1455px;
+}
+#two_requestInfo {
+  background-image: url("../img/2_requestinfo.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1245px;
+}
+.requestInfo1-hidden-hotspots {
+  position: absolute;
+  width: 730px;
+  height: 690px;
+}
+#requestInfo1-hotspot1 {
+  float: left;
+  position: absolute;
+  width: 250px;
+  height: 90px;
+  left: 713px;
+  top: 1055px;
+  cursor: pointer;
+  opacity: 0;
+}
+#requestInfo2-hotspot1 {
+  float: left;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 973px;
+  top: 135px;
+  cursor: pointer;
+  opacity: .5;
+  background-color: #fff;
+}
+/* CAREER FINDER */
+#career-finder {
+  z-index: 1000;
+  background-image: url("../img/career_finder.png");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1400px;
+  position: absolute;
+  top: 0px;
+}
+/* HOW TO JOIN */
+#one_howJoin {
+  background-image: url("../img/1_howjoin.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1300px;
+}
+#two_howJoin {
+  background-image: url("../img/2_howjoin.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1650px;
+}
+#three_howJoin {
+  background-image: url("../img/3_howjoin.jpg");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1650px;
+}
+.howJoin1-hidden-hotspots {
+  position: absolute;
+  width: 730px;
+  height: 690px;
+  top: 100px;
+}
+#howJoin1-hotspot1 {
+  float: left;
+  position: absolute;
+  width: 560px;
+  height: 159px;
+  left: 625px;
+  top: 25px;
+  cursor: pointer;
+  opacity: 0;
+}
+#howJoin2-hotspot1 {
+  float: left;
+  position: absolute;
+  width: 300px;
+  height: 159px;
+  left: 425px;
+  top: 715px;
+  cursor: pointer;
+  opacity: 0;
+}
+#howJoin2-hotspot2 {
+  float: left;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 975px;
+  top: 35px;
+  cursor: pointer;
+  opacity: 0;
+}
+#howJoin2-hotspot3 {
+  float: left;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 1075px;
+  top: 135px;
+  cursor: pointer;
+  opacity: 0;
+}
+#howJoin3-hotspot1 {
+  float: left;
+  position: absolute;
+  width: 250px;
+  height: 159px;
+  left: 231px;
+  top: 715px;
+  cursor: pointer;
+  opacity: 0;
+}
+#faqs {
+  z-index: 1000;
+  background-image: url("../img/FAQs.png");
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 1869px;
+  position: absolute;
+  top: 0px;
+}

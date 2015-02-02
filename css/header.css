@@ -1,0 +1,232 @@
+header {
+  z-index: 1000;
+  height: 112px;
+  /*background-image: url(../img/header-bg.png);*/
+  position: absolute;
+  background-color:#000;
+  width: 100%;
+}
+header a {
+    color: #00B8FD;
+    font-size: 10px;
+    text-decoration: none;
+}
+header .placeholder {
+  /*background: url(../img/header-placeholder.png) no-repeat center center;*/
+  height: 110px;
+  margin: 0 auto;
+  position: relative;
+  width: 963px;
+}
+header #logo {
+    float: left;
+    margin-left: 23px;
+    margin-top: -8px;
+}
+header ul {
+    font-family: AkzidenzBdCn;
+    margin: 0 0 0 224px;
+    padding: 0;
+    text-transform: uppercase;
+}
+header li {
+    display: inline-block;
+}
+#mainNav {
+    margin-left: 228px;
+    margin-top: 8px;
+}
+#mainNav li {
+    position: relative;
+}
+#mainNav > a {
+    color:  #fff;
+    font-size: 16px;
+}
+#mainNav li > a {
+    color:  #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin: 0;
+    padding: 15px 17px;
+    position: relative;
+    z-index: 1;
+}
+#mainNav li:hover > a,
+#mainNav .active {
+    background-color: #212224;
+    border-top: 1px solid #454545;
+    color: #FFA800;
+    padding-top: 14px;
+    top: 0;
+}
+.careers #mainNav a.careers,
+.benefits #mainNav a.benefits,
+.life #mainNav a.life,
+.about #mainNav a.about,
+.join #mainNav a.join {
+    color: #FFA800;
+}
+#mainNav li:first-child {
+    margin-left: 0;
+}
+
+#mainNav li:hover .megaMenu {
+    display: block;
+}
+#subNav {
+    background: url("../img/subnav-bg.png") no-repeat scroll 0 -5px transparent;
+    margin-left: 137px;
+    padding-bottom: 11px;
+    padding-left: 108px;
+    padding-top: 14px;
+    width: 927px;
+}
+#subNav li {
+    font-size: 10px;
+    font-family: arial;
+    font-weight: bold;
+    height: 17px;
+    line-height: 17px;
+    margin-left: 10px;
+    padding: 6px 0;
+    vertical-align: middle;
+}
+#subNav li:first-child {
+    margin-left: 0;
+}
+
+#socialIcons {
+    background: url(../img/socal-search-placeholder.png) no-repeat 7px -7px;
+    width: 362px;
+}
+#searchArea {
+    display: none;
+}
+li#phoneNumber {
+    color: #B77F0E;
+    font-family: AkzidenzBdCn;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.megaMenu {
+    background-color: #212224;
+    border-bottom: 1px solid #151414;
+    border-top: 1px solid #454545;
+    display: none;
+    overflow: hidden;
+    padding: 17px;
+    position: absolute;
+    top: 47px;
+}
+.megaMenuPanel {
+    float: left;
+    padding: 9px;
+    width: 165px
+}
+.megaMenu h3 {
+    background-color: #000;
+    background-image: url("../img/megamenu-sprite.jpg");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    color: #fefefe;
+    font-family: AkzidenzBdCn;
+    font-size: 16px;
+    margin: 0;
+    padding: 23px 10px 10px;
+    text-transform: uppercase;
+    width: 147px;
+}
+#join {
+    left: -207px;
+    width: 927px;
+} 
+#join .col1 {
+    background-position: 0 -232px;
+}
+#join .col2 {
+    background-position: -185px -232px;
+}
+#join .col3 {
+    background-position: -370px -232px;
+}
+#join .col4 {
+    background-position: -555px -232px;
+}
+#join .col5 {
+    background-position: -741px -232px;
+}
+#benefits {
+    left: -235px;
+    width: 549px;
+}
+#benefits .col1 {
+    background-position: 0 -154px;
+}
+#benefits .col2 {
+    background-position: -185px -154px;
+}
+#benefits .col3 {
+    background-position: -370px -154px;
+}
+#benefits .col4 {
+    background-position: -555px -154px;
+}
+#life {
+    left: -285px;
+    width: 549px;
+}
+#life .col1 {
+    background-position: 0 -77px;
+}
+#life .col2 {
+    background-position: -185px -77px;
+}
+#life .col3 {
+    background-position: -370px -77px;
+}
+#life .col4 {
+    background-position: -555px -77px;
+}
+#about {
+    left: -816px;
+    width: 927px;
+}
+#about .col1 {
+    background-position: 0 -0px;
+}
+#about .col2 {
+    background-position: -185px -0px;
+}
+#about .col3 {
+    background-position: -370px -0px;
+}
+#about .col4 {
+    background-position: -555px -0px;
+}
+#about .col5 {
+    background-position: -741px -0px;
+}
+.megaMenu h4 {
+    color: #666;
+    font-family: arial;
+    font-size: 11px;
+    margin: 10px 0;
+}
+.megaMenu h4 a {
+    color: #666;
+    font-family: arial;
+    font-size: 11px;
+}
+.megaMenu p {
+    margin: 10px 0;
+}
+.megaMenu a {
+    color: #00b8fs;
+    display: block;
+    font-family: arial;
+    font-size: 11px;
+    text-decoration: none;
+}
